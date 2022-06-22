@@ -1,0 +1,61 @@
+body {
+  background-color: rgb(214, 198, 198);
+  text-align: center;
+}
+
+button {
+  border: 1px solid black;
+  background-color: rgb(37, 130, 71);
+  color: white;
+  padding: 15px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+#gameStatus {
+  font-size: x-large;
+  color: red;
+}
+
+#gameBoard {
+  width: 468px;
+  height: 468px;
+  background-color: lightgreen;
+  border: 4px solid black;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#gameBoard div {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cellOpened {
+  background: gray;
+}
+
+.number1 {
+  color: blue;
+}
+.number2 {
+  color: green;
+}
+
+.number3 {
+  color: red;
+}
+
+.number4 {
+  color: purple;
+}
+
+.number5 {
+  color: yellow;
+}
